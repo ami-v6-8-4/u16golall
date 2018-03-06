@@ -8,9 +8,8 @@ go:
 build:
   pre_ci_boot:
     image_name: drydock/u16golall
-    image_tag: v6.1.4
+    image_tag: v6.2.4
     pull: true
     
   ci:
-    - go version 
-    
+    - go version    
