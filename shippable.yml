@@ -6,10 +6,6 @@ go:
   - 1.9.2
 
 build:
-  pre_ci_boot:
-    image_name: drydock/u16golall
-    image_tag: v6.2.4
-    pull: true
     
   ci:
     - go version    
