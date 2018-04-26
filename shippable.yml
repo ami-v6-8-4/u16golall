@@ -10,3 +10,4 @@ build:
     
   ci:
     - go version    
+    - docker pull shippabledocker/sample_node_pvt:ecr
