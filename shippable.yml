@@ -1,18 +1,10 @@
 language: go
 
 go:
-  - 1.10.4
-  - 1.11
+  - 1.9.7
+  - 1.10.3
 
 build:
     
   ci:
-    - go version    
-    - docker pull shippabledocker/sample_node_pvt:ecr
-    
-integrations:
-    
-  hub:
- #Docker integration
-    - integrationName: ship-docker
-      type: dockerRegistryLogin
+    - go version
